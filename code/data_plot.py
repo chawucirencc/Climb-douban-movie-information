@@ -110,4 +110,7 @@ def main():
     diff_regions(data_frame)
 
 
-main()      # 调用主函数
+if __name__ == "__main__":
+    """调用主函数"""
+    main()
+         
