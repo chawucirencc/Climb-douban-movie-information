@@ -94,5 +94,5 @@ def main():
     detail = get_detail(address, headers)
     save_result(result, detail)
 
-
-main()       # 调用主函数
+if __name__=='__main__':
+    main()       # 调用主函数，程序入口
